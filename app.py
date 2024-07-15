@@ -7,8 +7,8 @@ app = Flask(__name__)
 db_config = {
     'dbname': 'dbname',
     'user': 'postgres',
-    'password': 'Madhu123@',
-    'host': '10.0.2.189',  # Replace with your PostgreSQL host
+    'password': 'Madhu1234',
+    'host': '10.0.2.61',  # Replace with your PostgreSQL host
     'port': '5432'         # Replace with your PostgreSQL port
 }
 
