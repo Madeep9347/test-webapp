@@ -23,7 +23,7 @@ jobs:
 
     - name: Deploy using rsync
       run: |
-        rsync -avz --exclude '.git' -e "ssh -o StrictHostKeyChecking=no" ./ ubuntu@${{ secrets.EC2_HOST }}:/home/ubuntu
+        rsync -avz --exclude '.git' -e "ssh -o StrictHostKeyChecking=no" ./ ubuntu@${{ secrets.EC2_HOST }}:/home/ubuntu/webapp-test
 
     # - name: Restart Application on EC2
     #   run: |
